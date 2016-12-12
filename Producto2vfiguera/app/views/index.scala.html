@@ -1,0 +1,28 @@
+@(pedido: java.util.List[Pedidos]) 
+<html>
+<head>
+</head>
+<body>
+<table border="1">
+	<tr>
+			<td>Nombre Restaurant</td>
+			<td>Nombre Pedidos</td>
+			<td>Tipo </td>
+			<td>Cantidad </td>
+			<td>Precio </td>
+	</tr>
+	
+	@for(pedidos <- pedido){
+	<tr>
+			<td>@pedidos.name</td>
+			<td>
+			</td>
+			<td> </td>
+                        <td>
+                            
+                        </td>
+	</tr>
+	}
+</table>
+</body>
+</html>
